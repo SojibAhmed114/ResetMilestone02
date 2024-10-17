@@ -1,0 +1,27 @@
+.cob{
+    width: 300px;
+    height: 500px;
+    border: 1px solid red;
+    animation: ani 10s linear infinite;
+}
+
+@keyframes ani {
+    0%{
+        background-image: url('./one.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    50%{
+        background-image: url('./two.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    100%{
+        background-image: url('./three.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
