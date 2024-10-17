@@ -1,0 +1,14 @@
+.gird-container{
+    height: 100vh;
+    display: grid;
+    /* grid-template-columns: 200px 200px 60px 52px; */
+    /* grid-template-columns: repeat(2, 1fr) 200px 50px; */
+    /* grid-template-columns: repeat(2, 1fr) repeat(2, 2fr); */
+    grid-template-columns: repeat(2, 200px) 300px;
+    justify-content: space-evenly ;
+
+}
+.itembox{
+    border: 1px solid red;
+}
+
