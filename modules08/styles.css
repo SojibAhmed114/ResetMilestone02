@@ -1,4 +1,40 @@
 .Flex-container{
     border: 1px solid rebeccapurple;
-    
+    /* height: 500px; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    margin-top: 100px;
+} 
+.box{
+    border: 1px solid salmon;
+    width: 100px;
+    height: 100px;
+    background-color: lightseagreen;
+    margin: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rebeccapurple; */
+    height: 90vh;
+}
+.loginform{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 50%;
 }
