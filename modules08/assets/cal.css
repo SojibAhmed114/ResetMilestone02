@@ -1,0 +1,18 @@
+.carContainer{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+
+}
+.date, .day{
+    background-color: lightseagreen;
+    font-size: 1.5rem;
+    color: white;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 3px;
+}
+.day{
+    background-color: seagreen;
+}
