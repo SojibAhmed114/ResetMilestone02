@@ -63,10 +63,47 @@ body {
   width: 100%;
 }
 
+/* main section start here  */
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+main > section{
+  margin-top: 120px;
+}
+
+.temes{
+  align-items: center;
+}
+.titleD1{
+  font-weight: 300;
+}
+.titleD2{
+  color: rgb(190, 133, 0);
+}
+.team-image-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 24px;
+}
+
+.team-feature-container{
+  margin-left: 100px;
+  max-width: 530px;
+}
+
 
 /* responsive layout here  */
 @media screen  and (max-width: 576px){
   .display-flex{
     flex-direction: column;
+  }
+
+  .team-image-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .team-feature-container{
+    margin: 20px;
   }
 }
