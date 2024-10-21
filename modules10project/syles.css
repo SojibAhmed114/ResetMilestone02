@@ -107,10 +107,27 @@ main > section{
   border-radius: 8px;
   gap: 50px;
 }
-/* .sectiondes{
+.sectiondes{
   max-width: 540px;
-} */
+}
 
+.feature{
+  gap: 100px;
+}
+.fuck{
+  padding-left: 20px;
+  border-left: 5px solid #000;
+}
+.feature-card{
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+#btnPo{
+  margin-left: -100px;
+  margin-top: -100px;
+}
 /* responsive layout here  */
 @media screen  and (max-width: 576px){
   .display-flex{
