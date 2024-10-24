@@ -46,6 +46,9 @@ h2{
     font-weight: 500;
     cursor: pointer;
 }
+.ham-icon{
+    display: none;
+}
 
 
 /* banner section  */
@@ -112,11 +115,74 @@ h2{
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
     justify-items: end;
-    border:  1px solid;
 }
 .popularText{
     display: flex;
     flex-direction: column;
     row-gap: 30px;
     justify-content: space-between;
+}
+
+
+/* mobile version responsive design here  */
+@media screen and (max-width: 576px)  {
+    h2{
+        font-size: 2rem;
+    }
+    .container{
+        margin: 1rem auto;
+    }
+    .link-option{
+        display: none;
+    }
+    .ham-icon{
+        display: block;
+    }
+    .logo{
+        gap: 0.3rem;
+        width: 190px;
+    }
+    .nav-title{
+        font-size: 1.5rem;
+    }
+
+    .logo img{
+        width:40px;
+    }
+
+    /* banner section  */
+    .Explore-Your-Travel{
+        padding: 2rem;
+    }
+
+    .Explore-Your-Travel h2{
+        font-size: 1.5rem;
+    }
+    
+    .Explore-Your-Travel p{
+        margin: 1.5rem 0;
+        max-width: 60%;
+    }
+    
+    .travel-input{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    
+    .travel-input input, .travel-input select{
+        width: 90%;
+    }
+    .btn-primary{
+        width: 90%;
+    }
+
+    .popularTours{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+    }
+    .popularText{
+        row-gap: 20px;
+    }
+    
+
 }
